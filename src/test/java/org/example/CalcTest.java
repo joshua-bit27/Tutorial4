@@ -7,8 +7,12 @@ public class CalcTest {
   Calc c = new Calc();
 
     @Test
-    void testAddition() {
+    public void testAddition() {
         assertEquals(4, c.add(2,2));
     }
 
+    @Test
+    public void testSubtraction() {
+        assertEquals(2, c.subtract(4,2));
+    }
 }
